@@ -1,9 +1,4 @@
-:root {
-  --blanco: #d9d9d9;
-  --celeston: #007aff;
-  --azulon: #3a5fd6;
-  --oscuro: #242424;
-}
+
 
 * {
   margin: 0;
@@ -19,56 +14,20 @@ main {
   height: 100vh;
 }
 
-.blanco-text {
-  color: var(--blanco);
-}
-.celeston-text {
-  color: var(--celeston);
-}
-.azulon-text {
-  color: var(--azulon);
-}
-.oscuro-text {
-  color: var(--oscuro);
-}
-
-#ingresarTarea {
-  field-sizing: content;
-  resize: none;
-  min-height: 40px;
-  max-height: 100px;
-  outline: none;
-  align-content: center;
-  padding: 8px;
-  border-radius: 10px;
-}
-
-.input-group {
-  display: flex;
-}
-
-.input-field {
-  border: 1px solid #ccc;
-  padding: 10px;
-  border-right: none;
-  border-radius: 20px 0 0 20px;
-  outline: none;
-}
-
-.input-field::placeholder {
-  padding-left: 5px;
-}
-
 .input-button {
   border: 1px solid #ccc;
   padding: 10px 20px;
   background-color: #007bff;
   color: white;
-  border-radius: 0 20px 20px 0;
+  border-radius: 20%;
   cursor: pointer;
   transition-duration: 0.2s;
 }
 
 .input-button:hover {
   background-color: #0056b3;
+}
+
+.card-body span {
+  cursor: pointer;
 }
